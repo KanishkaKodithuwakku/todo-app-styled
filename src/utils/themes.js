@@ -2,7 +2,9 @@ export const COLORS = {
   primary: "#352F44",
   secondary: "#5C5470",
   ternery: "#B9B4C7",
-  light: "#D8D8D8",
+  light: "#352F44",
+  pills: "#455D7A",
+  white: "#fff",
 };
 
 export const WEIGHTS = {

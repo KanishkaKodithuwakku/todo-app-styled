@@ -1,5 +1,5 @@
 import { createGlobalStyle } from "styled-components";
-import { COLORS, WEIGHTS, FAMILIES, TYPE_SCALE } from "../../utils/themes";
+import { COLORS, WEIGHTS, FAMILIES, TYPE_SCALE } from "../utils/themes";
 
 const GlobalStyles = createGlobalStyle`
 html, body, span, ul,ol,li,
@@ -25,6 +25,8 @@ html {
     --color-secondary : ${COLORS.secondary};
     --color-ternery : ${COLORS.ternery};
     --color-urgent : ${COLORS.light};
+    --color-pills : ${COLORS.pills};
+    --color-white : ${COLORS.white};
 
     --font-family : ${FAMILIES.primary};
 
