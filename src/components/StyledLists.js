@@ -17,6 +17,9 @@ export const StyledListItem = styled.li`
   padding-left: 8px;
   padding-top: 5px;
   text-decoration: none;
+  border-radius: 5px; // Rounded borders
+  border-bottom: 1px solid #ddd; // Bottom border
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); // Small shadow
   &:last-child {
     margin-bottom: 0;
   }
