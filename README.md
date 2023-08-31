@@ -11,18 +11,18 @@ The app leverages the theming capabilities of styled-components. This allows for
 4. React useState Hook: \
 This repository demonstrates the power and simplicity of the useState hook. The app's main functionality, adding and removing todo items, is achieved using this hook, providing a practical demonstration of state management in functional components.
 #### Getting Started
-Clone the Repo: 
-
+Clone the Repo: \
+`https://github.com/KanishkaKodithuwakku/todo-app-styled.git`
 bash
 Copy code
-git clone [your-repo-link]
-cd [your-repo-name]
-`Install Dependencies:`
+git clone [`https://github.com/KanishkaKodithuwakku/todo-app-styled.git`] \
+cd [todo-app-styled] \
+`Install Dependencies:` \
 `npm install styled-components`
-bash
+bash 
 Copy code
-npm install
-Run the App:
+npm install \
+Run the App: \
 
 bash
 Copy code
