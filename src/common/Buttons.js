@@ -7,12 +7,14 @@ export const Button = styled.button`
   vertical-align: middle;
   user-select: none;
   border: 1px solid transparent;
-  padding: 0.375rem 0.75rem;
+  padding: 0.175rem 0.75rem;
   font-size: 1rem;
   line-height: 1.5;
   border-radius: 0.25rem;
   cursor: pointer;
   transition: all 0.15s ease-in-out;
+  margin-left: 5px;
+  margin-right: 5px;
 
   &:disabled {
     opacity: 0.65;
@@ -83,4 +85,9 @@ export const ButtonDanger = styled(Button)`
   &:active {
     box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.5);
   }
+`;
+
+export const Flex = styled.div`
+  display: flex;
+  justify-content: space-between;
 `;
