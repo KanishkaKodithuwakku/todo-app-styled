@@ -1,5 +1,5 @@
 ## 📘 React Todo App with Styled Components & Theming
-### <a hetf="https://kanishkakodithuwakku.github.io/todo-app-styled/">Live Demo</a>
+### <a href="https://kanishkakodithuwakku.github.io/todo-app-styled/">Live Demo</a>
 This repository showcases a simple yet structured Todo application built using React. A major emphasis of this project is on the use of Styled Components for component-specific styling, along with Global Styles and a Theme for consistent app-wide design. Alongside this, the repo demonstrates essential React hooks, specifically useState, for managing application state for adding and removing todo items.
 
 ### 🌟 Key Features
