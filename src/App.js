@@ -70,20 +70,6 @@ function App() {
     setTodos(update);
   };
 
-  const StyledFormWrapper = styled.div`
-    background-color: #f7f7f7;
-    padding: 15px;
-    margin-bottom: 15px;
-    border-radius: 4px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
-  `;
-
-  const StyledListWrapper = styled.div`
-    background-color: #fff;
-    padding: 15px;
-    border-radius: 4px;
-  `;
-
   return (
     <MainWrapper>
       <Flex>
@@ -93,14 +79,8 @@ function App() {
 
       {error && <Alert className="alert-danger">{error}</Alert>}
 
-      <StyledFormWrapper>
-        <TodoForm addTodos={addTodos} />
-      </StyledFormWrapper>
-
-      <StyledListWrapper>
-        <TodoList todos={todos} removeTodo={removeTodo} />
-      </StyledListWrapper>
-
+      <TodoForm addTodos={addTodos} />
+      <TodoList todos={todos} removeTodo={removeTodo} />
       <GlobalStyles />
     </MainWrapper>
   );
